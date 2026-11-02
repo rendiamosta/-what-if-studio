@@ -2,23 +2,20 @@
  "slug": "kutub-utara",
  "title": "BAGAIMANA JIKA KUTUB UTARA MENCAIR?",
  "fps": 30,
- "total": 600,
+ "total": 3600,
  "segments": [
-  { "shot": "S1", "a": 0, "b": 100, "t0": 0, "t1": 100, "line": "Kutub Utara adalah cermin raksasa bumi." },
-  { "shot": "S2", "a": 100, "b": 250, "t0": 0, "t1": 150, "line": "Jika ia mencair, cermin itu hilang. Laut menyerap panas." },
-  { "shot": "S3", "a": 250, "b": 450, "t0": 0, "t1": 200, "line": "Permukaan air naik. Kota pesisir terancam." },
-  { "shot": "S4", "a": 450, "b": 600, "t0": 0, "t1": 150, "line": "Siklus pemanasan tak terelakkan." }
+  { "shot": "S1", "a": 0, "b": 600, "t0": 0, "t1": 600, "line": "Kutub Utara adalah pendingin alami bumi. Namun, apa yang terjadi jika pendingin itu rusak?" },
+  { "shot": "S1", "a": 600, "b": 1500, "t0": 600, "t1": 1500, "line": "Arktik punya fungsi vital bernama 'Efek Albedo'. Es putih memantulkan panas. Tapi saat es mencair, permukaannya digantikan air gelap yang menyerap panas." },
+  { "shot": "S1", "a": 1500, "b": 2400, "t0": 1500, "t1": 2400, "line": "Di bawah, ada bom waktu. Permafrost yang mencair melepaskan metana, gas yang jauh lebih mematikan dari CO2." },
+  { "shot": "S1", "a": 2400, "b": 3600, "t0": 2400, "t1": 3600, "line": "Permukaan laut naik, kota pesisir terancam. Ini peringatan bagi kita semua. Bumi sedang bicara. Masihkah ada waktu?" }
  ],
  "shots": [
-  { "id": "S1", "size": "wide", "key": 50, "len": 100, "first": 0 },
-  { "id": "S2", "size": "medium", "key": 75, "len": 150, "first": 100 },
-  { "id": "S3", "size": "schematic", "key": 100, "len": 200, "first": 250 },
-  { "id": "S4", "size": "wide", "key": 75, "len": 150, "first": 450 }
+  { "id": "S1", "size": "wide", "key": 1800, "len": 3600, "first": 0 }
  ],
  "fx": [],
  "audio": {
-  "voice": null,
+  "voice": "elevenlabs/kutub-utara.mp3",
   "sfx": null,
-  "music": null
+  "music": "ambient-arctic.mp3"
  }
 }

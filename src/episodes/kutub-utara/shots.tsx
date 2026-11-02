@@ -1,27 +1,38 @@
 import React from 'react';
-import { ShotProps, Icefield, Schematic, TitleCard } from '../../engine';
+import { ShotProps, Hero, Icefield, LOOKS, kf, poseAt, basePose, hip, faceAt, clamp } from '../../engine';
 
-export const S1: React.FC<ShotProps> = ({ t, len }) => (
-  <g>
-    <Icefield t={t} id="arctic1" sunX={960} sunY={200} />
-    <TitleCard t={t} lines={['BAGAIMANA JIKA', 'KUTUB UTARA MENCAIR?']} size={60} y={540} />
-  </g>
-);
+const PIP = LOOKS.pipHood;
 
-export const S2: React.FC<ShotProps> = ({ t, len }) => (
-  <g>
-    <Icefield t={t} id="arctic2" sunX={960} sunY={200} />
-    <text x="960" y="900" fill="white" fontSize="40" textAnchor="middle">Es mencair, panas diserap laut.</text>
-  </g>
-);
+export const S1: React.FC<ShotProps> = ({ t, len }) => {
+  // Kamera bergerak perlahan melintasi pemandangan kutub
+  const camX = kf(t, [[0, 960], [len, 1920]]);
+  
+  // Pip berjalan melintasi perubahan lingkungan
+  const progress = t / len;
+  const pose = poseAt(t, [
+    { f: 0, p: { ...hip(920, 1), x: 400, yaw: 0.2, look: 0.3 } },
+    { f: len, p: { x: 2500 } }
+  ]);
 
-export const S3: React.FC<ShotProps> = ({ t, len }) => (
-  <Schematic t={t} id="sch1" />
-);
+  // Efek lingkungan berdasarkan waktu (mencair)
+  const melt = clamp(progress * 2);
+  const red = clamp((progress - 0.5) * 2); // Langit berubah merah di akhir
 
-export const S4: React.FC<ShotProps> = ({ t, len }) => (
-  <g>
-    <Icefield t={t} id="arctic4" sunX={960} sunY={200} />
-    <text x="960" y="900" fill="white" fontSize="40" textAnchor="middle">Siklus pemanasan global.</text>
-  </g>
-);
+  return (
+    <g transform={`translate(${-camX + 960} 0)`}>
+      <Icefield t={t} id="arctic-long" sunX={960} sunY={200} melt={melt > 0.5} red={red} />
+      
+      {/* Pip */}
+      <Hero look={PIP} pose={{ ...pose, ...faceAt(t, [[0, 'happy'], [1000, 'worried'], [2500, 'shock']]) }} rimId="rimR" shadow={0.5} />
+      
+      {/* Visual Elemen tambahan untuk menunjukkan dampak */}
+      {progress > 0.3 && (
+        <path d="M 1000 900 L 2000 850 L 2000 1080 L 1000 1080 Z" fill="#1a3a5a" opacity={melt * 0.5} />
+      )}
+      
+      <text x={camX} y={100} fill="white" fontSize="60" textAnchor="middle" style={{ fontFamily: 'sans-serif' }}>
+        {t < 600 ? "Kutub Utara" : t < 1500 ? "Efek Albedo" : t < 2400 ? "Bom Waktu Metana" : "Peringatan Global"}
+      </text>
+    </g>
+  );
+};
