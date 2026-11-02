@@ -1,0 +1,269 @@
+{
+ "slug": "antartika",
+ "title": "BAGAIMANA JIKA KAMU DI ANTARTIKA 30 HARI?",
+ "fps": 30,
+ "total": 766,
+ "segments": [
+  {
+   "shot": "S1",
+   "a": 0,
+   "b": 46,
+   "t0": 0,
+   "t1": 46,
+   "line": "Kamu tiba di Antartika."
+  },
+  {
+   "shot": "S2",
+   "a": 46,
+   "b": 85,
+   "t0": 0,
+   "t1": 39,
+   "line": "Salju. Angin."
+  },
+  {
+   "shot": "S3",
+   "a": 85,
+   "b": 113,
+   "t0": 0,
+   "t1": 28,
+   "line": "Pinguin."
+  },
+  {
+   "shot": "S4",
+   "a": 113,
+   "b": 143,
+   "t0": 0,
+   "t1": 30,
+   "line": "Jam 2 pagi:"
+  },
+  {
+   "shot": "S5",
+   "a": 143,
+   "b": 162,
+   "t0": 0,
+   "t1": 19,
+   "line": "mataharinya"
+  },
+  {
+   "shot": "S6",
+   "a": 162,
+   "b": 233,
+   "t0": 0,
+   "t1": 71,
+   "line": "masih di atas. Kamu main sampai 'malam'..."
+  },
+  {
+   "shot": "S7",
+   "a": 233,
+   "b": 282,
+   "t0": 0,
+   "t1": 49,
+   "line": "yang tidak pernah datang."
+  },
+  {
+   "shot": "S8",
+   "a": 282,
+   "b": 384,
+   "t0": 0,
+   "t1": 102,
+   "line": "Bagaimana jika kamu tinggal di Antartika selama 30 hari?"
+  },
+  {
+   "shot": "S9",
+   "a": 384,
+   "b": 468,
+   "t0": 0,
+   "t1": 84,
+   "line": "Tidak ada malam. Seperti cheat code dunia."
+  },
+  {
+   "shot": "S10",
+   "a": 468,
+   "b": 542,
+   "t0": 0,
+   "t1": 74,
+   "line": "Tapi jam tubuhmu butuh malam untuk tidur."
+  },
+  {
+   "shot": "S11",
+   "a": 542,
+   "b": 668,
+   "t0": 0,
+   "t1": 126,
+   "line": "Rekor suhu di sini: minus 89 koma dua derajat Celsius."
+  },
+  {
+   "shot": "S12",
+   "a": 668,
+   "b": 692,
+   "t0": 0,
+   "t1": 24,
+   "line": "Itu nyata."
+  },
+  {
+   "shot": "S13",
+   "a": 692,
+   "b": 766,
+   "t0": 0,
+   "t1": 74,
+   "line": "Masih kuat sampai hari 30?"
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "size": "wide",
+   "key": 26,
+   "len": 46,
+   "first": 0,
+   "line": "Kamu tiba di Antartika.",
+   "note": "wide establishing: stasiun di endang senja, jendela gut warm, mast, bendera; Pip berjalan masuk dari kiri, pinguin dekat peti"
+  },
+  {
+   "id": "S2",
+   "size": "medium",
+   "key": 18,
+   "len": 39,
+   "first": 46,
+   "line": "Salju. Angin.",
+   "note": "Pip berhenti di terjangan angin, salju bertaburan, selendik kepala (hoodie) ombak; chip HARI 1"
+  },
+  {
+   "id": "S3",
+   "size": "insert",
+   "key": 22,
+   "len": 28,
+   "first": 85,
+   "line": "Pinguin.",
+   "note": "insert: Pip menepuk kepala pinguin di sela peti (pinguin penuh di bingkai); lengan + sarung tangan masuk dari kiri"
+  },
+  {
+   "id": "S4",
+   "size": "macro insert, 3/4 atas",
+   "key": 26,
+   "len": 30,
+   "first": 113,
+   "line": "Jam 2 pagi:",
+   "note": "AlarmClock menunjukkan 02:00 di atas peti, matahari rendah di belakangnya, halo hangat"
+  },
+  {
+   "id": "S5",
+   "size": "medium, low angle",
+   "key": 16,
+   "len": 19,
+   "first": 143,
+   "line": "mataharinya",
+   "note": "Pip melempar bola salju tinggi ke arah matahari rendah; bola salju menyilang halo; Mo bergelak di sisi kanan"
+  },
+  {
+   "id": "S6",
+   "size": "medium wide",
+   "key": 28,
+   "len": 71,
+   "first": 162,
+   "line": "masih di atas. Kamu main sampai 'malam'...",
+   "note": "perang bola salju Pip vs Mo pada 23:58, bola mendarat di Mo lalu meletus salju dan hilang; Mo termangu; kamera medium lebih rapat dari S5; chip PUKUL 23:58"
+  },
+  {
+   "id": "S7",
+   "size": "close-up",
+   "key": 26,
+   "len": 49,
+   "first": 233,
+   "line": "yang tidak pernah datang.",
+   "note": "Pip berhenti di tengah lempar, pandangan ke langit, wajahlesu; FocusRings; chip PUKUL 03:12"
+  },
+  {
+   "id": "S8",
+   "size": "title, wide",
+   "key": 52,
+   "len": 102,
+   "first": 282,
+   "line": "Bagaimana jika kamu tinggal di Antartika selama 30 hari?",
+   "note": "premise pertengahan di atas endang stasiun; Pip berdiri di puncak tudung salju memutar lengan; pinguin lewat bingkai; inbound sun"
+  },
+  {
+   "id": "S9",
+   "size": "medium, action",
+   "key": 20,
+   "len": 84,
+   "first": 384,
+   "line": "Tidak ada malam. Seperti cheat code dunia.",
+   "note": "Pip berseledih dari puncak tudung salju (spray, tilt), pinguin gumpalan salju mengikuti dari belakang"
+  },
+  {
+   "id": "S10",
+   "size": "medium",
+   "key": 30,
+   "len": 74,
+   "first": 468,
+   "line": "Tapi jam tubuhmu butuh malam untuk tidur.",
+   "note": "di pondok kasur: Pip duduk di tepi kasur bawah, eye mask ke atas dahi, matahari masih tinggi di jendela; jam 23:40, kalender 21"
+  },
+  {
+   "id": "S11",
+   "size": "schematic",
+   "key": 56,
+   "len": 126,
+   "first": 542,
+   "line": "Rekor suhu di sini: minus 89 koma dua derajat Celsius.",
+   "note": "termometer menggambar sendiri, pengukur merendah ke -89,2 derajat; 'REKOR DINGIN BUMI' dan 'VOSTOK · 21 JULI 1983'"
+  },
+  {
+   "id": "S12",
+   "size": "extreme close-up",
+   "key": 14,
+   "len": 24,
+   "first": 668,
+   "line": "Itu nyata.",
+   "note": "Pip, wajah cemas, hidup seperti hembus bekuingan; cahaya mulai cerah merah"
+  },
+  {
+   "id": "S13",
+   "size": "wide, low angle",
+   "key": 46,
+   "len": 74,
+   "first": 692,
+   "line": "Masih kuat sampai hari 30?",
+   "note": "endang wide melebar; Pip kecil dan pinguin di angin; matahari low tidak mau tenggelam; chip HARI 30; flash dan shake"
+  }
+ ],
+ "fx": [
+  {
+   "kind": "flash",
+   "color": "#DDF2FF",
+   "o": 0.3,
+   "f": 87
+  },
+  {
+   "kind": "flash",
+   "color": "#FFF3DC",
+   "f": 282
+  },
+  {
+   "kind": "flash",
+   "color": "#FFEDE0",
+   "o": 0.25,
+   "f": 594
+  },
+  {
+   "kind": "flash",
+   "color": "#FF3344",
+   "f": 692
+  },
+  {
+   "kind": "shake",
+   "len": 10,
+   "amp": 10,
+   "f": 692
+  }
+ ],
+ "audio": {
+  "voice": "antartika/voice.wav",
+  "sfx": "antartika/sfx.wav",
+  "voiceVol": 0.8,
+  "sfxVol": 0.4657,
+  "music": "antartika/music.wav",
+  "musicVol": 0.1092
+ }
+}

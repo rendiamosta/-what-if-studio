@@ -1,0 +1,330 @@
+{
+ "id": "AntartikaLong",
+ "slug": "antartika-long",
+ "fps": 30,
+ "topic": "Bagaimana jika kamu tinggal di Antartika selama 30 hari?",
+ "title": [
+  "BAGAIMANA JIKA KAMU",
+  "DI ANTARTIKA 30 HARI?"
+ ],
+ "accent": "30",
+ "power": {
+  "word": "Polar day",
+  "rule": "selama Desember-Januari, di atas Lingkar Antartika, matahari tidak pernah tenggelam",
+  "look": "langit senja yang tidak pernah gelap; jam dinding dan kalender yang berjalan terus di siang bolong"
+ },
+ "cast": [
+  "pipHood",
+  "mo"
+ ],
+ "script": [
+  {
+   "beat": "1 cold open, demo 1 (tiba di stasiun)",
+   "text": "Kamu tiba di Antartika. Salju. Angin. Pinguin."
+  },
+  {
+   "beat": "1 cold open, demo 2 (jam 2 pagi, matahari masih terbit)",
+   "text": "Jam 2 pagi: mataharinya masih di atas."
+  },
+  {
+   "beat": "1 cold open, demo 3 (sedikit aneh: malam tak kunjung datang)",
+   "text": "Kamu main sampai 'malam'... yang tidak pernah datang."
+  },
+  {
+   "beat": "2 the premise (title card)",
+   "text": "Bagaimana jika kamu tinggal di Antartika selama 30 hari?"
+  },
+  {
+   "beat": "3 the fun part (waktu bermain tanpa batas)",
+   "text": "Tidak ada malam. Seperti cheat code dunia."
+  },
+  {
+   "beat": "3 the fun part, eskalasi (hari kedua: kemenangan kegilaan)",
+   "text": "Hari kedua: kamu merasa menang. Tidur? Nanti dulu."
+  },
+  {
+   "beat": "4 the cost 1: angin katabatik, fakta dengan angka",
+   "text": "Hari kelima, angin katabatik berdiri: 67 kilometer per jam, setiap hari, sepanjang musim."
+  },
+  {
+   "beat": "4 the cost 1: penanda geografi (tempat paling berangin)",
+   "text": "Cape Denison: tempat paling berangin di permukaan Bumi."
+  },
+  {
+   "beat": "4 the cost 1: konsekuensi — keluar butuh tali",
+   "text": "Keluar pondok kini pakai tali pengaman."
+  },
+  {
+   "beat": "4 the cost 2: jam tubuh",
+   "text": "Tapi jam tubuhmu butuh malam untuk tidur."
+  },
+  {
+   "beat": "4 the cost 2: konsekuensi sains — melatonin",
+   "text": "Tanpa gelap, melatonin ikut rebah. Tidur jadi barang antik."
+  },
+  {
+   "beat": "4-7 the turn: Mo menyadarinya (5: ada yang memperhatikan)",
+   "text": "Mo mengetuk pintu: 'Kamu masih belum tidur, ya?'"
+  },
+  {
+   "beat": "5-7 the turn: rekor dingin, 'Itu nyata.'",
+   "text": "Rekor suhu di sini: minus 89 koma dua derajat Celsius. Itu nyata."
+  },
+  {
+   "beat": "7 folded into a question",
+   "text": "Masih kuat sampai hari 30?"
+  }
+ ],
+ "science": [
+  {
+   "claim": "Suhu terdingin yang pernah tercatat di Bumi adalah −89,2 °C, di Stasiun Vostok, Antartika, 21 Juli 1983.",
+   "working": "Rekor benua sekaligus rekor global menurut tinjauan WMO atas catatan termometer permukaan yang sah (−89,2 °C, Vostok, 21 Juli 1983). Data satelit memperkirakan permukaan es lebih dingin lagi (sekitar −93 hingga −97 °C di Dataran Tinggi Antartika Timur), tetapi dicatat dengan metode pengukuran jarak dari satelit yang tidak sebanding, sehingga tidak menggantikan rekor −89,2 °C.",
+   "source": "WMO Global Weather & Climate Extremes Archive; Assessment of Global Extreme Temperatures (SCAR/WMO) untuk −89,2 °C (Vostok, 1983) dan catatan satelit yang tidak setanding"
+  },
+  {
+   "claim": "Di atas Lingkar Antartika (sekitar 66°33′ Lintang Selatan), matahari tidak tenggelam sama sekali di sekitar titik balik Desember; hari kutub itu berlangsung dari beberapa hari hingga lebih dari sebulan semakin ke kutub.",
+   "working": "Geometri: deklinasi Matahari mencapai −23,44° pada titik balik Desember, sehingga semua tempat di selatan (90° − 23,44°) = 66,56° Lintang Selatan mengalami matahari yang tidak pernah terbenam di sekitar solstis. Lebar hari kutub membesar menuju kutub: di lingkar hanya beberapa hari, di ±75° Lintang Selatan sekitar sebulan lebih, di kutub selatan sekitar setengah tahun. Stasiun riset nyata di pesisir dan dataran tinggi (misalnya sekitar 66-78° LS) melewati 30 hari tanpa matahari terbenam setiap musim panasnya.",
+   "source": "Geometri astronomi sederhana (deklinasi maksimum ±23,44°); Australian Antarctic Program, halaman day length"
+  },
+  {
+   "claim": "Jam tubuh butuh 'sinyal gelap' untuk memulai tidur: melatonin dilepas saat gelap, dan cahaya terang di malam hari menekan pelepasannya.",
+   "working": "Lewy et al. (Science, 1980) menunjukkan cahaya terang di malam hari menekan sekresi melatonin plasma manusia melalui jalur retina → nukleus suprachiasmatic → kelenjar pineal. Karena itu matahari yang tidak pernah tenggelam bisa menahan mulainya rasa kantuk; para peneliti kutub memakai gorden gelap dan kacamata trafik kuning di malam hari untuk menjaga sirkadian.",
+   "source": "Lewy AJ et al., 'Light Suppresses Melatonin Secretion in Humans', Science 210 (1980) 310-312; catatan lapangan higiene tidur stasiun kutub"
+  },
+  {
+   "claim": "Cape Denison, Teluk Persemakmuran (Commonwealth Bay), adalah tempat paling berangin di permukaan Bumi: angin katabatik bertiup hampir setiap hari dan rata-rata angin tahunannya sekitar 67 km/jam.",
+   "working": "Ekspedisi Douglas Mawson (1911-1914) menetap di Cape Denison dan mencatat rata-rata angin tahunan sekitar 18 m/s (≈ 67 km/jam); angin katabatik mengalir dari es dataran tinggi turun ke pantai, terdorong pendinginan malam-malam yang terus-menerus. Angin gusti bisa jauh lebih kencang lagi. Mawson menulis hasil pengamatannya dengan judul 'The Home of the Blizzard'.",
+   "source": "Australian Antarctic Program, halaman Mawson's Huts / Cape Denison winds; BOM Australian Wind Records (rata-rata tahunan Cape Denison)"
+  },
+  {
+   "claim": "Perpindahan antar bangunan di stasiun kutub saat angin kencang atau whiteout diatur dengan garis pengaman tali (rope line) yang dipasang antar gedung.",
+   "working": "Stasiun yang melalui kondisi cuaca tingkat 1-2 USAP (Condition 1: whiteout/visibilitas nyaris nol, angin di atas ambang) memakai rope lines terpasang permanen antar bangunan; orang bergerak dengan satu tangan di tali sehingga tidak tersesat atau tertiup. Program kutub lain memakai varian yang sama (tali pandu/garis pemandu). Angin katabatik pesisir mencapai kecepatan yang membuat tapi bebas pun tidak praktis: karena itu pipa-pegangan dan tali menjadi solusi standar.",
+   "source": "United States Antarctic Program, weather condition / site safety rules (rope lines antar bangunan); Australian Antarctic Program station safety guidance"
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "size": "wide",
+   "set": "icefield",
+   "key": 26,
+   "note": "wide establishing: stasiun di telaga senja, jendela kung warm, mast, bendera; Pip berjalan masuk dari kiri, pinguin dekat peti"
+  },
+  {
+   "id": "S2",
+   "size": "medium",
+   "set": "icefield",
+   "key": 18,
+   "note": "Pip berhenti di upasan angin pendar, chip HARI 1; angin ombak hoodie"
+  },
+  {
+   "id": "S3",
+   "size": "insert",
+   "set": "icefield (crate)",
+   "key": 22,
+   "note": "pinguin merebah di belakang peti, Pip menunduk melihatnya; tangan Pip masuk bingkai kanan"
+  },
+  {
+   "id": "S4",
+   "size": "macro insert, 3/4 atas",
+   "set": "icefield (crate top)",
+   "key": 26,
+   "note": "AlarmClock menunjukkan 02:00 di atas peti, matahari rendah di belakangnya, halo hangat"
+  },
+  {
+   "id": "S5",
+   "size": "medium, low angle",
+   "set": "icefield",
+   "key": 16,
+   "note": "Pip melempar bola salju tinggi ke arah matahari rendah; bola salju menyilang halo; Mo bergelak di sisi kanan"
+  },
+  {
+   "id": "S6",
+   "size": "medium wide",
+   "set": "icefield",
+   "key": 28,
+   "note": "perang bola salju Pip vs Mo pada 23:58; bola mendarat di Mo, puff lalu hilang; pinguin menonton"
+  },
+  {
+   "id": "S7",
+   "size": "close-up",
+   "set": "icefield",
+   "key": 26,
+   "note": "Pip berhenti di tangent lempar, pandangan ke langit, focusRings; chip PUKUL 03:12; ekor malam tak datang"
+  },
+  {
+   "id": "S8",
+   "size": "title, wide",
+   "set": "icefield",
+   "key": 52,
+   "note": "title card premise: Pip mendirikan bendera kecil di abu putih salju; pinguin lewat; matahari inbound"
+  },
+  {
+   "id": "S9",
+   "size": "medium, action",
+   "set": "icefield",
+   "key": 20,
+   "note": "Pip berseluncur dari tudog salju (spray), pinguin mengumpulkan salju mengejar dari belakang"
+  },
+  {
+   "id": "S14",
+   "size": "medium, action",
+   "set": "icefield",
+   "key": 24,
+   "note": "HARI 2: kemenangan; Pip melompat berpose, Mo tertidur zzz di halde salju; pinguin 学; angin mulai tipis di ekor shot"
+  },
+  {
+   "id": "S15",
+   "size": "medium, action",
+   "set": "icefield",
+   "key": 26,
+   "note": "HARI 5 · ANGIN KATABATIK: udara merekah, Pip menikung 45° ketangguhan, streak salju horizontal, strip; 67 km/jam"
+  },
+  {
+   "id": "S16",
+   "size": "schematic",
+   "set": "schematic",
+   "key": 44,
+   "note": "schematic: windsock menggambar sendiri, CountUp 67 km/jam, label CAPE DENISON · TELUK PERSEMAKMURAN, gauge rata-rata tahunan"
+  },
+  {
+   "id": "S17",
+   "size": "medium, action",
+   "set": "icefield",
+   "key": 20,
+   "note": "garis pengaman tali antara tiang; Pip menyandarkan satu tangan di tali dan bergebir, Mo tergantung di belakang"
+  },
+  {
+   "id": "S10",
+   "size": "medium",
+   "set": "bunk",
+   "key": 30,
+   "note": "di pondok kasur: Pip duduk di tepi kasur bawah, eye mask di dahi, matahari masih tinggi di jendela; jam 23:40"
+  },
+  {
+   "id": "S18",
+   "size": "schematic",
+   "set": "schematic",
+   "key": 36,
+   "note": "schematic: matahari menggambar busur yang tak pernah menyentuh garis cakrawala; bilah MELATONIN tetap kosong; label gelap→tidur"
+  },
+  {
+   "id": "S19",
+   "size": "medium",
+   "set": "bunk",
+   "key": 28,
+   "note": "Mo mengetuk pintu membawa dua mug, uap; Pip duduk terbaran dengan eye mask di dahi; chip PUKUL 04:15"
+  },
+  {
+   "id": "S11",
+   "size": "schematic",
+   "set": "schematic",
+   "key": 56,
+   "note": "termometer menggambar sendiri, pengukuran merunduk ke -89,2 derajat; 'REKOR DINGIN BUMI' dan 'VOSTOK · 21 JULI 1983'"
+  },
+  {
+   "id": "S12",
+   "size": "extreme close-up",
+   "set": "icefield",
+   "key": 14,
+   "note": "Pip, wajah cemas, hembus napas membeku; cahaya mulai lançam merah"
+  },
+  {
+   "id": "S13",
+   "size": "wide, low angle",
+   "set": "icefield",
+   "key": 46,
+   "note": "endang wide melebar; Pip kecil dan pinguin di angin; matahari rendah tidak mau tenggelam; chip HARI 30; flash dan shake"
+  }
+ ],
+ "edit": [
+  { "shot": "S1", "at": "Kamu" },
+  { "shot": "S2", "at": "Salju" },
+  { "shot": "S3", "at": "Pinguin" },
+  { "shot": "S4", "at": "Jam" },
+  { "shot": "S5", "at": "mataharinya" },
+  { "shot": "S6", "at": "masih" },
+  { "shot": "S7", "at": "yang" },
+  { "shot": "S8", "at": "Bagaimana" },
+  { "shot": "S9", "at": "Tidak" },
+  { "shot": "S14", "at": "Hari" },
+  { "shot": "S15", "at": "berdiri" },
+  { "shot": "S16", "at": "Denison" },
+  { "shot": "S17", "at": "tali" },
+  { "shot": "S10", "at": "Tapi" },
+  { "shot": "S18", "at": "Tanpa" },
+  { "shot": "S19", "at": "Mo" },
+  { "shot": "S11", "at": "Rekor" },
+  { "shot": "S12", "at": "Itu" },
+  { "shot": "S13", "at": "Masih" }
+ ],
+ "gaps": {
+  "word": 0.04,
+  "comma": 0.09,
+  "sentence": 0.14,
+  "question": 0.22,
+  "pairs": {
+   "Pinguin|Jam": 0.25,
+   "datang|Bagaimana": 0.25,
+   "dunia|Hari": 0.25,
+   "musim|Cape": 0.2,
+   "Bumi|Keluar": 0.28,
+   "pengaman|Tapi": 0.28,
+   "antik|Mo": 0.22,
+   "ya|Rekor": 0.28
+  }
+ },
+ "tail": 1.1,
+ "fx": [
+  { "at": "S3+2", "kind": "flash", "color": "#DDF2FF", "o": 0.3 },
+  { "at": "S8", "kind": "flash", "color": "#FFF3DC" },
+  { "at": "S14+10", "kind": "flash", "color": "#DDF2FF", "o": 0.25 },
+  { "at": "S15", "kind": "shake", "len": 12, "amp": 8 },
+  { "at": "S11+52", "kind": "flash", "color": "#FFEDE0", "o": 0.25 },
+  { "at": "S13", "kind": "flash", "color": "#FF3344" },
+  { "at": "S13", "kind": "shake", "len": 10, "amp": 10 }
+ ],
+ "sound": {
+  "clips": {
+   "roof_wind": ["a gentle evening breeze on a city rooftop, distant traffic", 7.0],
+   "room_tone": ["quiet indoor room tone in the evening, faint distant city hum, no voices", 12.5],
+   "big_step": ["a cartoon exaggerated careful tiptoe step, light airy whoosh", 0.7],
+   "catch": ["a hand catching a ceramic mug mid-air, soft slap and thud", 0.5],
+   "copy_click": ["a crisp satisfying computer copy click with a tiny soft digital chime, short", 0.5],
+   "cat_chirp": ["a cat making a short curious chirp meow", 0.6],
+   "pop": ["a cartoon speech bubble pop, short and bright", 0.5],
+   "fall_whoosh": ["a small object falling fast through the air, short soft whoosh", 0.6],
+   "paste_pop": ["a bright magical pop as an object appears out of thin air, a soft shimmering whoosh into a pop", 0.7],
+   "tumble": ["a cartoon character tumbling down wooden stairs, a quick series of bumps and thuds", 1.3],
+   "counter_tick": ["a fast mechanical counter ticking up rapidly, digits rolling over, getting faster", 1.6],
+   "gasp": ["two young people gasping in surprise at the same moment, cartoon, short", 0.8],
+   "title_boom": ["a cinematic whoosh rising into a deep boom impact", 1.6],
+   "drone_hit": ["a dark ominous low drone hit, deep cinematic horror sting", 2.6],
+   "music": ["playful quirky cartoon background music, pizzicato strings, glockenspiel and soft bass, light and curious, 110 bpm, no vocals", 17.0]
+  },
+  "events": [
+   ["S1", "roof_wind", 0.09, "onset", "S15"],
+   ["S1+12", "big_step", 0.3],
+   ["S2+3", "big_step", 0.35, "peak"],
+   ["S3+16", "copy_click", 0.35],
+   ["S3+26", "cat_chirp", 0.28],
+   ["S4+9", "pop", 0.15],
+   ["S5+12", "fall_whoosh", 0.4, "peak"],
+   ["S6+27", "paste_pop", 0.3, "peak"],
+   ["S6+34", "cat_chirp", 0.16],
+   ["S14+10", "pop", 0.28, "peak"],
+   ["S15", "roof_wind", 0.1, "onset", "S16"],
+   ["S16+6", "counter_tick", 0.15, "onset", "S16+34"],
+   ["S17+4", "copy_click", 0.3, "peak"],
+   ["S17+9", "roof_wind", 0.12, "onset", "S10"],
+   ["S10", "room_tone", 0.1, "onset", "S13"],
+   ["S19+6", "pop", 0.22, "peak"],
+   ["S19+9", "pop", 0.18, "peak"],
+   ["S11+16", "counter_tick", 0.15, "onset", "S11+60"],
+   ["S13", "drone_hit", 0.55],
+   ["S13+4", "roof_wind", 0.1, "onset"]
+  ],
+  "music": { "clip": "music", "until": "S14+20" },
+  "levels": { "sfx_lu": -2.5, "music_lu": -10.5 }
+ }
+}

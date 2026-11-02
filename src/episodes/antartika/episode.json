@@ -1,0 +1,233 @@
+{
+ "id": "Antartika",
+ "slug": "antartika",
+ "fps": 30,
+ "topic": "Bagaimana jika kamu tinggal di Antartika selama 30 hari?",
+ "title": [
+  "BAGAIMANA JIKA KAMU",
+  "DI ANTARTIKA 30 HARI?"
+ ],
+ "accent": "30",
+ "power": {
+  "word": "Polar day",
+  "rule": "selama Desember-Januari, di atas Lingkar Antartika, matahari tidak pernah tenggelam",
+  "look": "langit senja yang tidak pernah gelap; jam dinding dan kalender yang berjalan terus di siang bolong"
+ },
+ "cast": [
+  "pipHood",
+  "mo"
+ ],
+ "script": [
+  {
+   "beat": "1 cold open, demo 1 (tiba di stasiun)",
+   "text": "Kamu tiba di Antartika. Salju. Angin. Pinguin."
+  },
+  {
+   "beat": "1 cold open, demo 2 (jam 2 pagi, matahari masih terbit)",
+   "text": "Jam 2 pagi: mataharinya masih di atas."
+  },
+  {
+   "beat": "1 cold open, demo 3 (sedikit aneh: malam tak kunjung datang)",
+   "text": "Kamu main sampai 'malam'... yang tidak pernah datang."
+  },
+  {
+   "beat": "2 the premise (title card)",
+   "text": "Bagaimana jika kamu tinggal di Antartika selama 30 hari?"
+  },
+  {
+   "beat": "3 the fun part (waktu bermain tanpa batas)",
+   "text": "Tidak ada malam. Seperti cheat code dunia."
+  },
+  {
+   "beat": "4-7 the turn: the cost, one real fact, a question",
+   "text": "Tapi jam tubuhmu butuh malam untuk tidur. Rekor suhu di sini: minus 89 koma dua derajat Celsius. Itu nyata."
+  },
+  {
+   "beat": "7 folded into a question",
+   "text": "Masih kuat sampai hari 30?"
+  }
+ ],
+ "science": [
+  {
+   "claim": "Suhu terdingin yang pernah tercatat di Bumi adalah −89,2 °C, di Stasiun Vostok, Antartika, 21 Juli 1983.",
+   "working": "Rekor benua sekaligus rekor global menurut tinjauan WMO atas catatan termometer permukaan yang sah (−89,2 °C, Vostok, 21 Juli 1983). Data satelit memperkirakan permukaan es lebih dingin lagi (sekitar −93 hingga −97 °C di Dataran Tinggi Antartika Timur), tetapi dicatat dengan metode pengukuran jarak dari satelit yang tidak sebanding, sehingga tidak menggantikan rekor −89,2 °C.",
+   "source": "WMO Global Weather & Climate Extremes Archive; Assessment of Global Extreme Temperatures (SCAR/WMO) untuk −89,2 °C (Vostok, 1983) dan catatan satelit yang tidak setanding"
+  },
+  {
+   "claim": "Di atas Lingkar Antartika (sekitar 66°33′ Lintang Selatan), matahari tidak tenggelam sama sekali di sekitar titik balik Desember; hari kutub itu berlangsung dari beberapa hari hingga lebih dari sebulan semakin ke kutub.",
+   "working": "Geometri: deklinasi Matahari mencapai −23,44° pada titik balik Desember, sehingga semua tempat di selatan (90° − 23,44°) = 66,56° Lintang Selatan mengalami matahari yang tidak pernah terbenam di sekitar solstis. Lebar hari kutub membesar menuju kutub: di lingkar hanya beberapa hari, di ±75° Lintang Selatan sekitar sebulan lebih, di kutub selatan sekitar setengah tahun. Stasiun riset nyata di pesisir dan dataran tinggi (misalnya sekitar 66-78° LS) melewati 30 hari tanpa matahari terbenam setiap musim panasnya.",
+   "source": "Geometri astronomi sederhana (deklinasi maksimum ±23,44°); Australian Antarctic Program, halaman day length"
+  },
+  {
+   "claim": "Jam tubuh butuh 'sinyal gelap' untuk memulai tidur: melatonin dilepas saat gelap, dan cahaya terang di malam hari menekan pelepasannya.",
+   "working": "Lewy et al. (Science, 1980) menunjukkan cahaya terang di malam hari menekan sekresi melatonin plasma manusia melalui jalur retina → nukleus suprachiasmatic → kelenjar pineal. Karena itu matahari yang tidak pernah tenggelam bisa menahan mulainya rasa kantuk; para peneliti kutub memakai gorden gelap dan kacamata trafik kuning di malam hari untuk menjaga sirkadian.",
+   "source": "Lewy AJ et al., 'Light Suppresses Melatonin Secretion in Humans', Science 210 (1980) 310-312; catatan lapangan higiene tidur stasiun kutub"
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "size": "wide",
+   "set": "icefield",
+   "key": 26,
+   "note": "wide establishing: stasiun di endang senja, jendela gut warm, mast, bendera; Pip berjalan masuk dari kiri, pinguin dekat peti"
+  },
+  {
+   "id": "S2",
+   "size": "medium",
+   "set": "icefield",
+   "key": 18,
+   "note": "Pip berhenti di terjangan angin, salju bertaburan, selendik kepala (hoodie) ombak; chip HARI 1"
+  },
+  {
+   "id": "S3",
+   "size": "insert",
+   "set": "icefield (crate)",
+   "key": 22,
+   "note": "pinguin merebah di belakang peti, Pip menunduk melihatnya; tangan Pip masuk bingkai kanan"
+  },
+  {
+   "id": "S4",
+   "size": "macro insert, 3/4 atas",
+   "set": "icefield (crate top)",
+   "key": 26,
+   "note": "AlarmClock menunjukkan 02:00 di atas peti, matahari rendah di belakangnya, halo hangat"
+  },
+  {
+   "id": "S5",
+   "size": "medium, low angle",
+   "set": "icefield",
+   "key": 16,
+   "note": "Pip melempar bola salju tinggi ke arah matahari rendah; bola salju menyilang halo; Mo bergelak di sisi kanan"
+  },
+  {
+   "id": "S6",
+   "size": "medium wide",
+   "set": "icefield",
+   "key": 28,
+   "note": "perang bola salju Pip vs Mo pada 23:58; pinguin menonton dari sisi kanan bingkai; chip PUKUL 23:58"
+  },
+  {
+   "id": "S7",
+   "size": "close-up",
+   "set": "icefield",
+   "key": 26,
+   "note": "Pip berhenti di tengah lempar, pandangan ke langit, wajahlesu; FocusRings; chip PUKUL 03:12"
+  },
+  {
+   "id": "S8",
+   "size": "title, wide",
+   "set": "icefield",
+   "key": 52,
+   "note": "premise pertengahan di atas endang stasiun; Pip berdiri di puncak tudung salju memutar lengan; pinguin lewat bingkai; inbound sun"
+  },
+  {
+   "id": "S9",
+   "size": "medium, action",
+   "set": "icefield",
+   "key": 20,
+   "note": "Pip berseledih dari puncak tudung salju (spray, tilt), pinguin gumpalan salju mengikuti dari belakang"
+  },
+  {
+   "id": "S10",
+   "size": "medium",
+   "set": "bunk",
+   "key": 30,
+   "note": "di pondok kasur: Pip duduk di tepi kasur bawah, eye mask ke atas dahi, matahari masih tinggi di jendela; jam 23:40, kalender 21"
+  },
+  {
+   "id": "S11",
+   "size": "schematic",
+   "set": "schematic",
+   "key": 56,
+   "note": "termometer menggambar sendiri, pengukur merendah ke -89,2 derajat; 'REKOR DINGIN BUMI' dan 'VOSTOK · 21 JULI 1983'"
+  },
+  {
+   "id": "S12",
+   "size": "extreme close-up",
+   "set": "icefield",
+   "key": 14,
+   "note": "Pip, wajah cemas, hidup seperti hembus bekuingan; cahaya mulai cerah merah"
+  },
+  {
+   "id": "S13",
+   "size": "wide, low angle",
+   "set": "icefield",
+   "key": 46,
+   "note": "endang wide melebar; Pip kecil dan pinguin di angin; matahari low tidak mau tenggelam; chip HARI 30; flash dan shake"
+  }
+ ],
+ "edit": [
+  { "shot": "S1", "at": "Kamu" },
+  { "shot": "S2", "at": "Salju" },
+  { "shot": "S3", "at": "Pinguin" },
+  { "shot": "S4", "at": "Jam" },
+  { "shot": "S5", "at": "mataharinya" },
+  { "shot": "S6", "at": "masih" },
+  { "shot": "S7", "at": "yang" },
+  { "shot": "S8", "at": "Bagaimana" },
+  { "shot": "S9", "at": "Tidak" },
+  { "shot": "S10", "at": "Tapi" },
+  { "shot": "S11", "at": "Rekor" },
+  { "shot": "S12", "at": "Itu" },
+  { "shot": "S13", "at": "Masih" }
+ ],
+ "gaps": {
+  "word": 0.07,
+  "comma": 0.13,
+  "sentence": 0.2,
+  "question": 0.3,
+  "pairs": {
+   "Pinguin|Jam": 0.4,
+   "datang|Bagaimana": 0.35,
+   "dunia|Tapi": 0.3
+  }
+ },
+ "tail": 1.1,
+ "fx": [
+  { "at": "S3+2", "kind": "flash", "color": "#DDF2FF", "o": 0.3 },
+  { "at": "S8", "kind": "flash", "color": "#FFF3DC" },
+  { "at": "S11+52", "kind": "flash", "color": "#FFEDE0", "o": 0.25 },
+  { "at": "S13", "kind": "flash", "color": "#FF3344" },
+  { "at": "S13", "kind": "shake", "len": 10, "amp": 10 }
+ ],
+ "sound": {
+  "clips": {
+   "roof_wind": ["a gentle evening breeze on a city rooftop, distant traffic", 7.0],
+   "room_tone": ["quiet indoor room tone in the evening, faint distant city hum, no voices", 12.5],
+   "big_step": ["a cartoon exaggerated careful tiptoe step, light airy whoosh", 0.7],
+   "catch": ["a hand catching a ceramic mug mid-air, soft slap and thud", 0.5],
+   "copy_click": ["a crisp satisfying computer copy click with a tiny soft digital chime, short", 0.5],
+   "cat_chirp": ["a cat making a short curious chirp meow", 0.6],
+   "pop": ["a cartoon speech bubble pop, short and bright", 0.5],
+   "fall_whoosh": ["a small object falling fast through the air, short soft whoosh", 0.6],
+   "paste_pop": ["a bright magical pop as an object appears out of thin air, a soft shimmering whoosh into a pop", 0.7],
+   "tumble": ["a cartoon character tumbling down wooden stairs, a quick series of bumps and thuds", 1.3],
+   "counter_tick": ["a fast mechanical counter ticking up rapidly, digits rolling over, getting faster", 1.6],
+   "gasp": ["two young people gasping in surprise at the same moment, cartoon, short", 0.8],
+   "title_boom": ["a cinematic whoosh rising into a deep boom impact", 1.6],
+   "drone_hit": ["a dark ominous low drone hit, deep cinematic horror sting", 2.6],
+   "music": ["playful quirky cartoon background music, pizzicato strings, glockenspiel and soft bass, light and curious, 110 bpm, no vocals", 17.0]
+  },
+  "events": [
+   ["S1", "roof_wind", 0.09, "onset", "S10"],
+   ["S1+12", "big_step", 0.3],
+   ["S2+3", "big_step", 0.35, "peak"],
+   ["S3+16", "copy_click", 0.35],
+   ["S3+26", "cat_chirp", 0.28],
+   ["S4+9", "pop", 0.15],
+   ["S5+12", "fall_whoosh", 0.4, "peak"],
+   ["S6+27", "paste_pop", 0.3, "peak"],
+   ["S6+34", "cat_chirp", 0.16],
+   ["S8", "title_boom", 0.55, "peak"],
+   ["S9+2", "tumble", 0.3, "peak"],
+   ["S9+34", "cat_chirp", 0.15],
+   ["S10", "room_tone", 0.1, "onset", "S13"],
+   ["S11+16", "counter_tick", 0.15, "onset", "S11+60"],
+   ["S13", "drone_hit", 0.55],
+   ["S13+4", "roof_wind", 0.1, "onset"]
+  ],
+  "music": { "clip": "music", "until": "S10" },
+  "levels": { "sfx_lu": -2.5, "music_lu": -10.5 }
+ }
+}
